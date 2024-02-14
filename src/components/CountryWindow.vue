@@ -1,13 +1,13 @@
 <template>
-   <div id="sliding-window">
-    <div id="window-header">
-      <button class="country-close-btn" @click="closeCountryWindow">x</button>
-    </div>
-    <div id="window-content">
-        <h2 id="country-name">Country Name</h2>
-        <!-- Additional content here -->
-    </div>
+<div id="sliding-window">
+  <div id="window-header">
+    <button class="country-close-btn" @click="closeCountryWindow">x</button>
   </div>
+  <div id="window-content">
+    <h2 id="country-name">Country Name</h2>
+    <!-- Additional content here -->
+  </div>
+</div>
 </template>
   
 <script>
